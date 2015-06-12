@@ -22,7 +22,7 @@
 <h1>How to use it</h2>
 
 <p>
-	Favicon uses a MySQL database. In the <code>src</code> you'll find the exported <code>.sql</code> files.<br>
+	Favicon uses a MySQL database. In the <code>src</code> folder you'll find the exported <code>.sql</code> files.<br>
 	Import them so you can use it.
 </p>
 
