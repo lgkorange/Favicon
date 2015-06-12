@@ -11,3 +11,26 @@
 	If you want to get lots of favicon images it could take a long time to request the service for each URL.<br>
 	Instead with this class the favicon stays cached in your database.
 </p>
+
+<h2>Define how often a favicon should get refreshed</h2>
+
+<p>
+	With the <code>$priority</code> property you can specify how often a cached favicon image should get refreshed by the Google service.<br>
+	By default it is set to 30 days.
+</p>
+
+<h1>How to use it</h2>
+
+<p>
+	Favicon uses a MySQL database. In the <code>src</code> you'll find the exported <code>.sql</code> files.<br>
+	Import them so you can use it.
+</p>
+
+<h2>Initialize a Favicon object</h2>
+
+<pre>
+	<?php
+		$myBlogFavicon = new Favicon("http://blog.lgk.io");
+	?>
+	<img src="<?php echo $myBlogFavicon->image; ?>" alt="Favicon">
+</pre>
