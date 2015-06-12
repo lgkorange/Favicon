@@ -29,8 +29,8 @@
 <h2>Initialize a Favicon object</h2>
 
 <pre>
-	<?php
+	&lt;?php
 		$myBlogFavicon = new Favicon("http://blog.lgk.io");
-	?>
-	<img src="<?php echo $myBlogFavicon->image; ?>" alt="Favicon">
+	?&gt;
+	&lt;img src="<?php echo $myBlogFavicon->image; ?>" alt="Favicon"&gt;
 </pre>
