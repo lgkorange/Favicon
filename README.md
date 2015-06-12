@@ -32,5 +32,5 @@
 	&lt;?php
 		$myBlogFavicon = new Favicon("http://blog.lgk.io");
 	?&gt;
-	&lt;img src="<?php echo $myBlogFavicon->image; ?>" alt="Favicon"&gt;
+	&lt;img src="&lt;?php echo $myBlogFavicon->image; ?&gt;" alt="Favicon"&gt;
 </pre>
